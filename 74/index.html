@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>体重記録サイト</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body>
+        <div id="all" class="all">
+            <div id="main" class="main">
+                <h2 id="h2">体重管理サイト</h2>
+                <form>
+                    <div id="input">
+                        <!-- 体重　-->
+                        <label for="body_weight">体重 : </label>
+                        <input type="text" id="body_weight" name="body_weight" required />
+                        <!-- 日付　-->
+                        <label for="day">日付 : </label>
+                        <input type="date" id="day" name="day" required />
+                        <!-- 食事 -->
+                        <fieldset>
+                            <legend>食事の有無</legend>
+                                <label for="breakfast">朝食 : </label>
+                                <input type="checkbox" id="breakfast" name="eat" value="breakfast">
+
+                                <label for="lunch">昼食  : </label>
+                                <input type="checkbox" id="lunch" name="eat" value="lunch">
+
+                                <label for="dinner">夕食 : </label>
+                                <input type="checkbox" id="dinner" name="eat" value="dinner">
+                        </fieldset>
+                        <button id="record_btn" onclick="record()">記録する</button>
+                    </div>
+                </form>
+                <div id="history">
+
+                </div>
+            </div>
+        </div>
+    <small>2501149 古賀敦也</small>
+    </body>
