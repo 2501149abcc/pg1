@@ -1,0 +1,42 @@
+body{
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+#all{
+  max-width: 600px;
+  margin: auto;
+}
+
+#input label{
+  margin-right: 6px;
+}
+
+#input input{
+  margin-bottom: 8px;
+}
+
+fieldset{
+  margin: 10px 0;
+  padding: 6px;
+}
+
+#record_btn{
+  margin-top: 10px;
+  padding: 6px 12px;
+}
+
+#history>div{
+  padding: 6px 0;
+  border-bottom: 1px solid #ddd;
+}
+#history{
+  background: #c9c4c4;
+  padding: 10px;
+  border-radius: 6px;
+}
+h2{
+  background: #db8d8d;
+  padding: 8px;
+  border-radius: 4px;
+}
